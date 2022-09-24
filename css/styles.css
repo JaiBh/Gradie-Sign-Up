@@ -116,10 +116,11 @@ Hero
 .hero-title{
     color: #fff;
     margin-bottom: 0.5rem;
+    font-family: var(--font-tertiary);
 }
 .hero-text{
     color: var(--clr-tertiary);
-    font-family: var(--clr-tertiary);   
+    font-family: var(--font-tertiary);   
 }
 
 
@@ -166,6 +167,7 @@ Create account info
 }
 .form-input::placeholder{
     color:#8D8D8D;
+    font-family: var(--font-primary);
 }
 .form-terms{
     display: grid;
@@ -189,7 +191,6 @@ Create account info
     .create-account-section{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* align-content: center; */
     }
     body{
         width: 100vw;
